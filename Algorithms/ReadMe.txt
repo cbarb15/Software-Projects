@@ -1,0 +1,1 @@
+This is an example of a simple memory allocator that I wrote to learn about allocation in my computer systems class. 

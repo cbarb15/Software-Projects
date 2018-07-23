@@ -1,0 +1,2 @@
+Here are some code examples from a couple of different computer vision algorithms that I implemented. 
+There is a line detection and I have provided the before and after pictures after they were run through my program. This code was written in MATLAB. The second example was a belief propagation algorithm I implemented. I have provided a snapshot of the representation graph that we were following with this algorithm.  
