@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController createForecastDictionary:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "condArray[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ConditionsTableViewController tableView:cellForRowAtIndexPath:]:ConditionsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TableViewController searchBarSearchButtonClicked:]:TableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__52-[TableViewController searchBarSearchButtonClicked:]_block_invoke:TableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ForecastPageViewController init]:ForecastPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.pages objectAtIndex: initialPage]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ConditionsTableViewController initCellData]:ConditionsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController dataReceived:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController dataReceived::]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__24-[ViewController save::]_block_invoke:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "![self-&gt;tableViewController.nameArray containsObject:[conditionsDictionary valueForKey:@&quot;ident&quot;]]">
+            </PersistentString>
+            <PersistentString
+               value = "[conditionsDictionary valueForKey:@&quot;ident&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController showForecast]:ViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

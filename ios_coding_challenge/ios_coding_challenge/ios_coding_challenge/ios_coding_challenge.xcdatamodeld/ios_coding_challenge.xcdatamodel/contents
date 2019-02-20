@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Airports" representedClassName="Airports" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Conditions" representedClassName="Conditions" syncable="YES" codeGenerationType="class">
+        <attribute name="altitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudCoverage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="densityAltitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dewPoint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightRules" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pressure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prevailingVision" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeHumidity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tempC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variableWind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visibility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="windSpeed" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Favorites" representedClassName="Favorites" syncable="YES" codeGenerationType="class">
+        <attribute name="altitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudCoverage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="densityAltitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dewPoint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightRules" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pressure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prevailingVision" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeHumidity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tempC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variableWind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visibility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="windSpeed" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Airports" positionX="-54" positionY="90" width="128" height="60"/>
+        <element name="Conditions" positionX="-63" positionY="-18" width="128" height="255"/>
+        <element name="Favorites" positionX="-36" positionY="108" width="128" height="255"/>
+    </elements>
+</model>

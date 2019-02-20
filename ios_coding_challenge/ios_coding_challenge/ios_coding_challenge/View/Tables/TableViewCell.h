@@ -1,0 +1,17 @@
+//
+//  TableViewCell.h
+//  ios_coding_challenge
+//
+//  Created by Charlie Barber on 2/17/19.
+//  Copyright © 2019 Charlie Barber. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface TableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *leftTitle;
+@property (weak, nonatomic) IBOutlet UILabel *leftLabel;
+@property (weak, nonatomic) IBOutlet UILabel *rightTitle;
+@property (weak, nonatomic) IBOutlet UILabel *rightLabel;
+
+@end
