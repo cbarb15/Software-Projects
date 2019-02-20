@@ -74,7 +74,7 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-    NSURL *url = [NSURL URLWithString:@"https://qa.foreflight.com/weather/report/"];
+    NSURL *url = [NSURL URLWithString:@""];
     url = [url URLByAppendingPathComponent:searchBar.text];
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     
