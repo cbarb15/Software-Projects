@@ -144,9 +144,7 @@ class Renderer: NSObject, MTKViewDelegate {
             }
             
             commandEncoder.endEncoding()
-            
             commandBuffer.present(drawable)
-            
             commandBuffer.commit()
         }
     }
