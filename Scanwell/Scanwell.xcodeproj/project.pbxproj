@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6EE2FDD26BF380800A901A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FDC26BF380800A901A7 /* AppDelegate.swift */; };
+		F6EE2FDF26BF380800A901A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FDE26BF380800A901A7 /* SceneDelegate.swift */; };
+		F6EE2FE126BF380800A901A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FE026BF380800A901A7 /* ViewController.swift */; };
+		F6EE2FE426BF380800A901A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2FE226BF380800A901A7 /* Main.storyboard */; };
+		F6EE2FE726BF380800A901A7 /* Scanwell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FE526BF380800A901A7 /* Scanwell.xcdatamodeld */; };
+		F6EE2FE926BF380900A901A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2FE826BF380900A901A7 /* Assets.xcassets */; };
+		F6EE2FEC26BF380900A901A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2FEA26BF380900A901A7 /* LaunchScreen.storyboard */; };
+		F6EE2FF426BF3CB500A901A7 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FF326BF3CB500A901A7 /* StringConstants.swift */; };
+		F6EE2FF926BF6F3900A901A7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FF826BF6F3900A901A7 /* User.swift */; };
+		F6EE2FFB26BF71C900A901A7 /* BadgeCounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FFA26BF71C900A901A7 /* BadgeCounts.swift */; };
+		F6EE2FFD26BF775F00A901A7 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2FFC26BF775F00A901A7 /* Users.swift */; };
+		F6EE300126C068C000A901A7 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE300026C068C000A901A7 /* CircleView.swift */; };
+		F6EE300626C072F200A901A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE300526C072F200A901A7 /* UserCell.swift */; };
+		F6EE300826C07FB200A901A7 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE300726C07FB200A901A7 /* UserDetails.swift */; };
+		F6EE301526C174BF00A901A7 /* UserRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE301326C174BF00A901A7 /* UserRecord+CoreDataClass.swift */; };
+		F6EE301626C174BF00A901A7 /* UserRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE301426C174BF00A901A7 /* UserRecord+CoreDataProperties.swift */; };
+		F6EE301926C17AF600A901A7 /* UserRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE301826C17AF600A901A7 /* UserRecord+CoreDataProperties.swift */; };
+		F6EE301B26C17B1E00A901A7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE301A26C17B1E00A901A7 /* Network.swift */; };
+		F6EE301D26C17B5700A901A7 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE301C26C17B5700A901A7 /* Database.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6EE2FD926BF380800A901A7 /* Scanwell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanwell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE2FDC26BF380800A901A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6EE2FDE26BF380800A901A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6EE2FE026BF380800A901A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6EE2FE326BF380800A901A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6EE2FE626BF380800A901A7 /* Scanwell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scanwell.xcdatamodel; sourceTree = "<group>"; };
+		F6EE2FE826BF380900A901A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6EE2FEB26BF380900A901A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6EE2FED26BF380900A901A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EE2FF326BF3CB500A901A7 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		F6EE2FF826BF6F3900A901A7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F6EE2FFA26BF71C900A901A7 /* BadgeCounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCounts.swift; sourceTree = "<group>"; };
+		F6EE2FFC26BF775F00A901A7 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		F6EE300026C068C000A901A7 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		F6EE300526C072F200A901A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F6EE300726C07FB200A901A7 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		F6EE301326C174BF00A901A7 /* UserRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F6EE301426C174BF00A901A7 /* UserRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F6EE301826C17AF600A901A7 /* UserRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserRecord+CoreDataProperties.swift"; path = "Scanwell/Model/Database/UserRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F6EE301A26C17B1E00A901A7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F6EE301C26C17B5700A901A7 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6EE2FD626BF380800A901A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6EE2FD026BF380800A901A7 = {
+			isa = PBXGroup;
+			children = (
+				F6EE301826C17AF600A901A7 /* UserRecord+CoreDataProperties.swift */,
+				F6EE2FDB26BF380800A901A7 /* Scanwell */,
+				F6EE2FDA26BF380800A901A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EE2FDA26BF380800A901A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE2FD926BF380800A901A7 /* Scanwell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6EE2FDB26BF380800A901A7 /* Scanwell */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE300E26C0DF3F00A901A7 /* Controller */,
+				F6EE300D26C0DF2600A901A7 /* Views */,
+				F6EE2FF526BF6E6600A901A7 /* Model */,
+				F6EE300B26C0DE5300A901A7 /* utils */,
+				F6EE2FDC26BF380800A901A7 /* AppDelegate.swift */,
+				F6EE2FDE26BF380800A901A7 /* SceneDelegate.swift */,
+				F6EE2FE226BF380800A901A7 /* Main.storyboard */,
+				F6EE2FE826BF380900A901A7 /* Assets.xcassets */,
+				F6EE2FEA26BF380900A901A7 /* LaunchScreen.storyboard */,
+				F6EE2FED26BF380900A901A7 /* Info.plist */,
+				F6EE2FE526BF380800A901A7 /* Scanwell.xcdatamodeld */,
+			);
+			path = Scanwell;
+			sourceTree = "<group>";
+		};
+		F6EE2FF526BF6E6600A901A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE301726C174E600A901A7 /* Database */,
+				F6EE2FF826BF6F3900A901A7 /* User.swift */,
+				F6EE2FFA26BF71C900A901A7 /* BadgeCounts.swift */,
+				F6EE2FFC26BF775F00A901A7 /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6EE300B26C0DE5300A901A7 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE2FF326BF3CB500A901A7 /* StringConstants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		F6EE300D26C0DF2600A901A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE2FE026BF380800A901A7 /* ViewController.swift */,
+				F6EE300026C068C000A901A7 /* CircleView.swift */,
+				F6EE300526C072F200A901A7 /* UserCell.swift */,
+				F6EE300726C07FB200A901A7 /* UserDetails.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6EE300E26C0DF3F00A901A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE301A26C17B1E00A901A7 /* Network.swift */,
+				F6EE301C26C17B5700A901A7 /* Database.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6EE301726C174E600A901A7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE301326C174BF00A901A7 /* UserRecord+CoreDataClass.swift */,
+				F6EE301426C174BF00A901A7 /* UserRecord+CoreDataProperties.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6EE2FD826BF380800A901A7 /* Scanwell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE2FF026BF380900A901A7 /* Build configuration list for PBXNativeTarget "Scanwell" */;
+			buildPhases = (
+				F6EE2FD526BF380800A901A7 /* Sources */,
+				F6EE2FD626BF380800A901A7 /* Frameworks */,
+				F6EE2FD726BF380800A901A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scanwell;
+			productName = Scanwell;
+			productReference = F6EE2FD926BF380800A901A7 /* Scanwell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EE2FD126BF380800A901A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F6EE2FD826BF380800A901A7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F6EE2FD426BF380800A901A7 /* Build configuration list for PBXProject "Scanwell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6EE2FD026BF380800A901A7;
+			productRefGroup = F6EE2FDA26BF380800A901A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EE2FD826BF380800A901A7 /* Scanwell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6EE2FD726BF380800A901A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE2FEC26BF380900A901A7 /* LaunchScreen.storyboard in Resources */,
+				F6EE2FE926BF380900A901A7 /* Assets.xcassets in Resources */,
+				F6EE2FE426BF380800A901A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6EE2FD526BF380800A901A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE300126C068C000A901A7 /* CircleView.swift in Sources */,
+				F6EE301926C17AF600A901A7 /* UserRecord+CoreDataProperties.swift in Sources */,
+				F6EE2FFD26BF775F00A901A7 /* Users.swift in Sources */,
+				F6EE301626C174BF00A901A7 /* UserRecord+CoreDataProperties.swift in Sources */,
+				F6EE2FE126BF380800A901A7 /* ViewController.swift in Sources */,
+				F6EE301B26C17B1E00A901A7 /* Network.swift in Sources */,
+				F6EE2FDD26BF380800A901A7 /* AppDelegate.swift in Sources */,
+				F6EE2FE726BF380800A901A7 /* Scanwell.xcdatamodeld in Sources */,
+				F6EE2FFB26BF71C900A901A7 /* BadgeCounts.swift in Sources */,
+				F6EE301526C174BF00A901A7 /* UserRecord+CoreDataClass.swift in Sources */,
+				F6EE300826C07FB200A901A7 /* UserDetails.swift in Sources */,
+				F6EE2FF426BF3CB500A901A7 /* StringConstants.swift in Sources */,
+				F6EE2FDF26BF380800A901A7 /* SceneDelegate.swift in Sources */,
+				F6EE300626C072F200A901A7 /* UserCell.swift in Sources */,
+				F6EE301D26C17B5700A901A7 /* Database.swift in Sources */,
+				F6EE2FF926BF6F3900A901A7 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6EE2FE226BF380800A901A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE2FE326BF380800A901A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6EE2FEA26BF380900A901A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE2FEB26BF380900A901A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6EE2FEE26BF380900A901A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6EE2FEF26BF380900A901A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6EE2FF126BF380900A901A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT9376X85F;
+				INFOPLIST_FILE = Scanwell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbarb15.Scanwell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6EE2FF226BF380900A901A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT9376X85F;
+				INFOPLIST_FILE = Scanwell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbarb15.Scanwell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6EE2FD426BF380800A901A7 /* Build configuration list for PBXProject "Scanwell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE2FEE26BF380900A901A7 /* Debug */,
+				F6EE2FEF26BF380900A901A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE2FF026BF380900A901A7 /* Build configuration list for PBXNativeTarget "Scanwell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE2FF126BF380900A901A7 /* Debug */,
+				F6EE2FF226BF380900A901A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6EE2FE526BF380800A901A7 /* Scanwell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6EE2FE626BF380800A901A7 /* Scanwell.xcdatamodel */,
+			);
+			currentVersion = F6EE2FE626BF380800A901A7 /* Scanwell.xcdatamodel */;
+			path = Scanwell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6EE2FD126BF380800A901A7 /* Project object */;
+}
